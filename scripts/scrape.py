@@ -1,10 +1,15 @@
-import nltk   
 from urllib3 import request
 from bs4 import BeautifulSoup
 
 urls = [
-    "https://www.projekt-gutenberg.org/avenariu/kater/kater.html",
-    "https://www.projekt-gutenberg.org/avenariu/kater/chap001.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/gespens1.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap001.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap002.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap003.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap004.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap005.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap006.html",
+    "https://www.projekt-gutenberg.org/apellaun/gespens1/chap007.html"
 ]
 
 for url in urls:
